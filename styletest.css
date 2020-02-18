@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4vh;
+    background-color:none;
+    font-family: 'Press Start 2P';
+}
+.logo{
+    color: rgb(65, 197, 65);
+    letter-spacing: 0;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.nav-link{
+    display: flex;
+    justify-items: space-around;
+    width: 30%;
+}
+.nav-link li {
+    list-style: none;
+}
+.nav-link li a{
+    text-decoration: none;
+    color: rgb(217, 254, 255);
+    padding: 17px;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    font-family: cursive;
+}
+.nav-link li a:hover{
+    background-color: rgb(92, 199, 133);
+    border-radius: 6px;
+}
+.background{
+    background-image: url('background.jpg');
+    height: 700px;
+}
+.login{
+    display: inline;
+    color: rgb(99, 99, 250);
+}
+.content{
+    text-align: center;
+    margin-top: 130px;
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    position: relative;
+}
+#text{
+    font-size: 20px;
+    color: rgb(215, 231, 141);
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+#text h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Pacifico',cursive; 
+}
+#text p{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+}
+#discover-btn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color:rgb(43, 73, 206);
+    margin-top: 15px;
+    font-family: monospace;
+    border: 0;
+}
+#discover-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+#discover-btn:hover{
+    background-color: rgb(29, 100, 67);
+    cursor: pointer;
+}
+.bar{
+    border: 2px solid brown;
+    width: 30%;
+    margin: 25px auto 0;
+    border-radius: 3px;
+}
+.title{
+    margin: 15px 0 -30px 7%;
+    font-size: 2.3rem;
+}
+.content2{
+    width: 100%;
+    display: flex;
+    margin: 40px auto;
+    background-color: rgb(197, 161, 104);
+    height: 350px;
+}
+.image{
+    box-shadow: -3px 3px 6px rgb(68, 68, 68) ;
+    margin: 50px auto;
+    height: 250px;
+    width: 300px;
+    background-size: cover ;
+
+    
+}
+.image:nth-child(1){
+    background-image: url('canabis.jpg');
+    margin-left: 15%;
+}
+.image:nth-child(2){
+    background-image: url('bong.jpg');
+}
+.image:nth-child(3){
+    background-image: url('tau.jpg');
+    margin-right: 15%;
+}
+.content2>p{
+    clear: left;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 100px;
+    position: relative;
+
+}
