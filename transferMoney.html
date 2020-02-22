@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            margin-right: auto;
+            height: 30px;
+        }
+        
+        .child{
+            display: block;
+            visibility: hidden;
+        }
+        .money-down:hover .child{
+            visibility: visible;
+        }
+        #output{
+            border: 1px solid black;
+            width: 150px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <div class="container">
+        <div class="money-down">
+            <select id="select">
+                <option value="USD">USD</option>
+                <option value="Yen">Yen</option>
+                <option value="Euro">Euro</option>
+                <option value="CNY">CNY(China)</option>
+            </select>
+        </div>
+            <input id="input" placeholder="Money to transfer">
+            <span>=</span>
+            <p id="output"></p>
+            <div class="money">VNĐ</div> 
+            <button type="button" id="transfer-btn" onclick="myFunction()">Transfer</button>
+            
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
